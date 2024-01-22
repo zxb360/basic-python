@@ -5,7 +5,7 @@ __pycache__/
 *.pyd
 
 # Ignorar o ambiente virtual (se você estiver usando virtualenv ou venv)
-.venv/
+venv/
 env/
 *.env
 
