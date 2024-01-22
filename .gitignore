@@ -1,0 +1,42 @@
+# Ignorar arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar o ambiente virtual (se você estiver usando virtualenv ou venv)
+.venv/
+env/
+*.env
+
+# Ignorar arquivos específicos
+.DS_Store   # Arquivo de metadados do macOS
+Thumbs.db   # Arquivo de metadados do Windows
+
+# Ignorar logs e arquivos temporários
+*.log
+*.swp
+
+# Ignorar dependências e arquivos de compilação
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+__pycache__/
+
+# Ignorar arquivos de configuração locais
+*.ini
+*.db
+*.sqlite
+
+# Ignorar notebooks e arquivos de saída do Jupyter
+.ipynb_checkpoints/
+*.ipynb
+*.nbconvert/
+
+# Ignorar arquivos gerados pelo Jupyter
+*.html
+*.pyc
+*.pyo
+__pycache__/
